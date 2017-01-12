@@ -1,7 +1,5 @@
 /* tempconvLib.c
-	A libary for temperature conversion
-	V0.2.1B
-
+	A library for temperature conversion
 */
 
 float c2f(float c){
