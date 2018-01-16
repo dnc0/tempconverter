@@ -30,7 +30,7 @@
 int main(int argc, char *argv[]) {
 	if((argc < 3) || (argc > 3)){
 		printf("sintaxe error\n") ;
-		return 0;
+		return 1;
 	}
 	float value = atof(argv[2]);
 	
@@ -57,4 +57,5 @@ int main(int argc, char *argv[]) {
 		printf("\"%s\" it is don't a valid command",argv[1]);	
 	}
 	printf("\n");
+	return 0;
 }//end main
